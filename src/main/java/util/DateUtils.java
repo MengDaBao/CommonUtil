@@ -16,4 +16,8 @@ public class DateUtils {
     public static String format(Date date){
         return datetimeFormat.get().format(date);
     }
+
+    /**
+     * 日期格式化
+     */
 }
