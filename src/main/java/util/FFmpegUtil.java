@@ -8,7 +8,7 @@ import java.util.List;
 
 public class FFmpegUtil {
 
-    public final static String path = "";
+    public final static String path = "123";
 
     /**
      * 合并视频文件
