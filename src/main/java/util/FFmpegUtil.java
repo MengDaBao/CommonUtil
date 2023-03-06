@@ -76,6 +76,12 @@ public class FFmpegUtil {
         String commond = "ffmpeg.exe -i D:/2.mp4 -r 5 -f image2 D:/mp4img/1_frame_%05d.jpg";
     }
 
+    /**
+     * 图片转视频
+     * @author Yby
+     * @date 2023/3/6 17:41
+     * @version 1.0
+     */
     public void imageToVideo() {
         String commond = "ffmpeg.exe -f image2 -framerate 25 -i D:/mp4img/1_frame_%05d.jpg -b:v 25313k D:/new.mp4";
     }
