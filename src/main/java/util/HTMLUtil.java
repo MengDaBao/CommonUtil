@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 /**
  * HTML 工具类
  */
-public class HTMLUtils {
+public class HTMLUtil {
 
     /**
      * 获取HTML内的文本，不包含标签
